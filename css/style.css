@@ -6,3 +6,24 @@
 }
 
 /* BODY */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(231, 223, 223);
+}
+
+/* HEADER */
+header {background-color: white; 
+        padding: 10px 20px;      
+}
+
+.logo {
+    vertical-align: middle;
+}
+.main-title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* MAIN */
