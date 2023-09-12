@@ -8,7 +8,7 @@
 /* BODY */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(231, 223, 223);
+    background-color: #f6f8f9;
 }
 
 /* HEADER */
@@ -22,8 +22,42 @@ header {background-color: white;
 .main-title {
     display: inline-block;
     vertical-align: middle;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bold;
 }
 
 /* MAIN */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* BUTTON BAR */
+.button-bar {
+    margin-top: 25px;
+    background-color: white;
+    padding: 20px 50px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.button {
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    border-style: solid;
+}
+
+.button-1 {
+    background-color: #47adf1;
+    color: white;
+    margin-right: 2px;
+    border-color: #47adf1;
+}
+
+.button-2 {
+    background-color: #ffffff;
+    color: #c5cbd0;
+    margin-right: 2px;
+    border-color: #c5cbd0;
+}
