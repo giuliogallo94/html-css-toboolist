@@ -30,19 +30,19 @@ header {background-color: white;
 .container {
     width: 70%;
     margin: 0 auto;
+    background-color: white;
 }
 
 /* BUTTON BAR */
 .button-bar {
     margin-top: 25px;
-    background-color: white;
     padding: 20px 50px 15px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 .button {
-    padding: 7px 15px;
+    padding: 7px 10px;
     border-radius: 5px;
     font-size: 13px;
     border-style: solid;
@@ -58,6 +58,56 @@ header {background-color: white;
 .button-2 {
     background-color: #ffffff;
     color: #c5cbd0;
-    margin-right: 2px;
     border-color: #c5cbd0;
+}
+
+/* MAIN SECTION */
+.main-section {
+    padding: 40px 50px;
+}
+
+.arrow-symbol {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.list-title {
+    display: inline-block;
+    margin-left: 5px ;
+}
+
+.list {
+    list-style-type: none; 
+}
+
+
+.check-symbol {
+    color: #64C0AC;
+    border-style: solid;
+    border-radius: 50%;
+    margin-right: 10px;
+    border-width: 1px;
+    padding: 3px 5px;
+    font-size: 11px;
+}
+
+.uncheck-symbol {
+    color: red;
+    border-style: solid;
+    border-radius: 50%;
+    margin-right: 10px;
+    border-width: 1px;
+    padding: 3px 6px;
+    font-size: 11px;
+}
+
+
+li {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.margin-t {
+    margin-top: 40px;
+
 }
